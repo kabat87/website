@@ -27,6 +27,14 @@ const products = [
     url: 'https://www.moderntreasury.com/',
     probability: 1,
   },
+  {
+    title: 'Dopt',
+    description:
+      ' Dopt gives developers UI components and SDKs to build seamless onboarding and education experiences in minutes.',
+    image: '../images/affiliates/dopt.png',
+    url: 'https://dopt.com/?utm_source=floating_ui_website',
+    probability: 1,
+  },
   // {
   //   title: 'Material Dashboard PRO',
   //   description: 'Premium Bootstrap 4 Material Admin - $49',
@@ -107,11 +115,6 @@ const products = [
 
 const MINI_SPONSORS = [
   {
-    logo: require('../images/logos/sponsors/mobilemall.svg'),
-    label: 'Mobile Mall - Mobile Phone Prices in Pakistan',
-    url: 'https://mobilemall.pk/',
-  },
-  {
     logo: require('../images/logos/sponsors/coupontoaster.svg'),
     label: 'Coupontoaster - Discount and Coupon Codes',
     url: 'https://coupontoaster.com/',
@@ -121,20 +124,106 @@ const MINI_SPONSORS = [
     label: 'Cell Tracking Apps - Parental Control Software Review Website',
     url: 'http://celltrackingapps.com/',
   },
-  {
-    logo: require('../images/logos/sponsors/techbuy.svg'),
-    label: 'wazirx referral code',
-    url: 'https://techbuy.in/wazirx-referral-code/',
-  },
-  {
-    logo: require('../images/logos/sponsors/dpcoupon.svg'),
-    label: 'dpcoupon - coupon codes and discounts',
-    url: 'https://www.dpcoupon.com/',
-  },
+  // {
+  //   logo: require('../images/logos/sponsors/techbuy.svg'),
+  //   label: 'wazirx referral code',
+  //   url: 'https://techbuy.in/wazirx-referral-code/',
+  // },
+  // {
+  //   logo: require('../images/logos/sponsors/dpcoupon.svg'),
+  //   label: 'dpcoupon - coupon codes and discounts',
+  //   url: 'https://www.dpcoupon.com/',
+  // },
   {
     logo: require('../images/logos/sponsors/ggc.svg'),
     label: 'ggc - espionner un téléphone Android iPhone Pour Control Parental',
     url: 'https://www.global-gsm-control.com/',
+  },
+  {
+    logo: require('../images/logos/sponsors/livingfeeds.svg'),
+    label: 'Living Feeds',
+    url: 'https://livingfeeds.com/',
+  },
+  // {
+  //   logo: require('../images/logos/sponsors/bestforandroid.svg'),
+  //   label: 'Best Android Apps, Downloads & How to Guides',
+  //   url: 'https://bestforandroid.com/',
+  // },
+  {
+    logo: require('../images/logos/sponsors/titanam.svg'),
+    label: 'Titan Asset Management',
+    url: 'https://titanam.co.uk/',
+  },
+  {
+    logo: require('../images/logos/sponsors/dailycontributors.svg'),
+    label: 'Dailycontributors Blog',
+    url: 'https://dailycontributors.com',
+  },
+  {
+    logo: require('../images/logos/sponsors/ariakit.svg'),
+    label: 'Ariakit - Toolkit for building accessible UIs',
+    url: 'https://ariakit.org/',
+  },
+  // {
+  //   logo: require('../images/logos/sponsors/ibomma.svg'),
+  //   label: 'Ibomma App',
+  //   url: 'https://theibomma.com/',
+  // },
+  // {
+  //   logo: require('../images/logos/sponsors/pacmanblog.svg'),
+  //   label: 'Pacman 30th Anniversary Doodle',
+  //   url: 'https://pacmanblog.com/',
+  // },
+  {
+    logo: require('../images/logos/sponsors/sup.svg'),
+    label: 'Sup Standup Bot',
+    url: 'https://sup.today/',
+  },
+  // {
+  //   logo: require('../images/logos/sponsors/save-code.svg'),
+  //   label: "Save With the UK's Best Vouchers & Discount Codes",
+  //   url: 'https://www.savecode.co.uk/',
+  // },
+  {
+    logo: require('../images/logos/sponsors/fitlivingtips.svg'),
+    label: 'FitLivingTips - Health and Fitness Blog',
+    url: 'https://www.fitlivingtips.com/',
+  },
+  {
+    logo: require('../images/logos/sponsors/mobipast.svg'),
+    label: 'Mobipast',
+    url: 'https://mobipast.net/',
+  },
+  {
+    logo: require('../images/logos/sponsors/refermate.svg'),
+    label: 'Refermate - Best Coupon Codes',
+    url: 'https://refermate.com/',
+  },
+  {
+    logo: require('../images/logos/sponsors/electrictui.svg'),
+    label:
+      'Electric UI - Tools for building user interfaces for hardware devices.',
+    url: 'https://electricui.com/',
+  },
+  {
+    logo: require('../images/logos/sponsors/mobilemall.svg'),
+    label: 'Mobilemall',
+    url: 'https://mobilemall.co/',
+  },
+  {
+    logo: require('../images/logos/sponsors/tubidy.svg'),
+    label: 'Tubidy',
+    url: 'https://the-tubidy.com/',
+  },
+  {
+    logo: require('../images/logos/sponsors/rs24.svg'),
+    label: 'Rapelis24',
+    url: 'https://the-repelis24.com/',
+  },
+  {
+    logo: require('../images/logos/sponsors/thetinyzone.svg'),
+    label: 'Tinyzone',
+    url: 'https://thetinyzone.com/',
   },
 ];
 

@@ -41,6 +41,7 @@ import 'modern-normalize';
 import '@openfonts/luckiest-guy_latin';
 import './layout.css';
 import './prism-base2tone-pool-dark.css';
+import { FloatingUIBanner } from './Layout';
 
 import popcornBox from '../images/popcorn-box.svg';
 import { css } from '@emotion/react';
@@ -502,7 +503,7 @@ createPopper(popcorn, tooltip, {
         </p>
         <Highlight code={code} />
         <span>
-          <ExternalLinkStyled to="https://codesandbox.io/s/github/popperjs/website/tree/master/examples/placement">
+          <ExternalLinkStyled to="https://codesandbox.io/s/github/floating-ui/popper.js.org/tree/master/examples/placement">
             Edit on CodeSandbox
           </ExternalLinkStyled>
         </span>
@@ -590,7 +591,7 @@ createPopper(popcorn, tooltip, {
         </p>
         <Highlight code={code} />
         <span>
-          <ExternalLinkStyled to="https://codesandbox.io/s/github/popperjs/website/tree/master/examples/overflow-prevention">
+          <ExternalLinkStyled to="https://codesandbox.io/s/github/floating-ui/popper.js.org/tree/master/examples/overflow-prevention">
             Edit on CodeSandbox
           </ExternalLinkStyled>
         </span>
@@ -641,7 +642,7 @@ createPopper(popcorn, tooltip);
         </p>
         <Highlight code={code} />{' '}
         <span>
-          <ExternalLinkStyled to="https://codesandbox.io/s/github/popperjs/website/tree/master/examples/flipping">
+          <ExternalLinkStyled to="https://codesandbox.io/s/github/floating-ui/popper.js.org/tree/master/examples/flipping">
             Edit on CodeSandbox
           </ExternalLinkStyled>
         </span>
@@ -664,10 +665,18 @@ const Layout = ({ children }) => {
   return (
     <MDXProvider components={components}>
       <SEO title="Home" />
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <FloatingUIBanner />
+      <Header
+        siteTitle={data.site.siteMetadata.title}
+        css={css`
+          margin-top: 4rem;
+        `}
+      />
+      <meta http-equiv="refresh" content="0; URL='https://floating-ui.com/?utm_source=popper.js.org'" />
       <InstallBar />
       <CarbonAds
         css={css`
+          margin-top: 4rem;
           ${media.lg} {
             position: absolute;
             top: 0;
